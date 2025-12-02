@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Down Ninja Portal</title>
+    <title>Block Rush Portal</title>
     <style>
         /* --- CSS Reset & Base Styles --- */
         * {
@@ -59,7 +59,7 @@
             width: 100%;
             display: flex;
             flex-direction: column;
-            align-items: center; /* Centers content horizontally */
+            align-items: center;
         }
 
         h1 {
@@ -68,7 +68,7 @@
             font-size: 2.5rem;
         }
 
-        /* --- Game Grid (Adjusted for single item) --- */
+        /* --- Game Grid --- */
         .game-container {
             display: flex;
             justify-content: center;
@@ -83,7 +83,7 @@
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             border: 1px solid #333;
             position: relative;
-            max-width: 400px; /* Limits width of the single card */
+            max-width: 400px;
             width: 100%;
         }
 
@@ -94,7 +94,7 @@
         }
 
         .card-image {
-            height: 200px; /* Slightly taller for the main feature */
+            height: 200px;
             background: linear-gradient(135deg, #2b1055, #7597de);
             display: flex;
             align-items: center;
@@ -189,11 +189,10 @@
         
         <div class="game-container">
             <article class="game-card">
-                <div class="card-image">🥷</div>
-                <div class="card-content">
-                    <h2 class="card-title">Top Down Ninja</h2>
-                    <p class="card-desc">Stealth, strategy, and shurikens. Navigate the maze and defeat the enemies in this top-down adventure.</p>
-                    <a href="#" class="play-btn">Play Now</a>
+                <div class="card-image">🧱</div>                <div class="card-content">
+                    <h2 class="card-title">Block Rush</h2>
+                    <p class="card-desc">Fast-paced arcade action. Dodge the obstacles and rush to the finish line in this intense block runner.</p>
+                    <a href="game.html" class="play-btn">Play Now</a>
                 </div>
             </article>
         </div>
